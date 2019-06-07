@@ -1,0 +1,10 @@
+export http_proxy=http://Kucher_l:Larisa@80.245.119.130:8080
+export https_proxy=https://Kucher_l:Larisa@80.245.119.130:8080
+export ftp_proxy=ftp://Kucher_l:Larisa@80.245.119.130:8080
+gpg -a --export 7D8D0BF6 | apt-key add -
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+unset http_proxy
+
+ctrl+alt+f3 = console
+apt full-upgrade xterm
+
